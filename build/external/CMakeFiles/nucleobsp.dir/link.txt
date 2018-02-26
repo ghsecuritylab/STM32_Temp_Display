@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libnucleobsp.a  CMakeFiles/nucleobsp.dir/STM32Cube_FW_F1_V1.6.0/Drivers/BSP/STM32F1xx_Nucleo/stm32f1xx_nucleo.c.obj
+/usr/bin/arm-none-eabi-ranlib libnucleobsp.a

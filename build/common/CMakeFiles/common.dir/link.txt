@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libcommon.a  CMakeFiles/common.dir/application.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libcommon.a

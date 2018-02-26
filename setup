@@ -1,0 +1,35 @@
+#!/bin/sh
+# Run this script to initialize the code base
+
+git submodule update --init
+
+cd external || exit 1
+if [ ! -d "STM32Cube_FW_F1_V1.6.0" ]; then
+    unzip en.stm32cubef1.zip
+else
+    echo "Already extracted STM Cube"
+fi
+
+if [ ! -d "Catch2" ]; then
+    unzip Catch2.zip
+else
+    echo "Already extracted Catch2"
+fi
+
+if [ ! -d "FakeIt" ]; then
+    unzip FakeIt.zip
+else
+    echo "Already extracted FakeIt"
+fi
+
+if [ ! -d "GSL" ]; then
+    unzip GSL.zip
+else
+    echo "Already extracted GSL"
+fi
+
+cd ../
+mkdir build
+cd build
+cmake -DCMAKE_TOOLCHAIN_FILE=../cmake/nucleo_f103rb-toolchain.cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=Debug ../
+cd ../

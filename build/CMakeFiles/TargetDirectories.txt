@@ -1,0 +1,12 @@
+/home/sf/Downloads/TheTokenBox/build/CMakeFiles/edit_cache.dir
+/home/sf/Downloads/TheTokenBox/build/CMakeFiles/rebuild_cache.dir
+/home/sf/Downloads/TheTokenBox/build/external/CMakeFiles/edit_cache.dir
+/home/sf/Downloads/TheTokenBox/build/external/CMakeFiles/rebuild_cache.dir
+/home/sf/Downloads/TheTokenBox/build/external/CMakeFiles/nucleobsp.dir
+/home/sf/Downloads/TheTokenBox/build/common/CMakeFiles/edit_cache.dir
+/home/sf/Downloads/TheTokenBox/build/common/CMakeFiles/rebuild_cache.dir
+/home/sf/Downloads/TheTokenBox/build/common/CMakeFiles/common.dir
+/home/sf/Downloads/TheTokenBox/build/nucleo_f103rb/CMakeFiles/edit_cache.dir
+/home/sf/Downloads/TheTokenBox/build/nucleo_f103rb/CMakeFiles/rebuild_cache.dir
+/home/sf/Downloads/TheTokenBox/build/nucleo_f103rb/CMakeFiles/nucleo_f103rb.elf.dir
+/home/sf/Downloads/TheTokenBox/build/nucleo_f103rb/CMakeFiles/stm32cube.dir
